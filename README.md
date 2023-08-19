@@ -6,10 +6,10 @@ This is a simple rock paper scissors game that can be played by two or three pla
 
 <h1>How to play</h1>
 
-1. Choose your move: <strong>front</strong> or <strong>back</strong>.
+1. Choose your move: <strong>front</strong> or <strong>back</strong>. The winner will be the player with the **most unique front or back moves**.
 2. Click the "Play" button.
 3. The computer and the other player will randomly choose their moves.
-4. The winner will be the player with the most <strong>front</strong> moves.
+4. The winner will be the player with the most **unique front or back moves**.
 
 <h1>Dependencies</h1>
 
