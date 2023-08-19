@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: orange;
+    padding: 12px;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 23px;
+}
+
+img{
+    width: 23%;
+}
+
+#game-section{
+    margin-top: 150px;
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    /* background-color: aqua; */
+   margin-inline: auto;
+}
+
+.player{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.computer{
+    display: flex;
+
+    justify-content: center;
+}
+
+#comp1{
+    transform: rotate(117deg);
+}
+#comp2{
+    transform: rotate(240deg);
+}
+
+#p1{
+    transform: rotate(0deg);
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  /* This CSS will be applied to screens with a width of 768px or less */
+  header {
+    text-align: center;
+    background-color: orange;
+    padding: 12px;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  img {
+    width: 10%;
+  }
+
+  #game-section {
+    margin-top: 80px;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin-inline: unset;
+  }
+
+  .player {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  .computer {
+    display: flex;
+
+    justify-content: center;
+  }
+
+  #comp1 {
+    transform: rotate(117deg);
+  }
+  #comp2 {
+    transform: rotate(240deg);
+  }
+
+  #p1 {
+    transform: rotate(0deg);
+  }
+}
